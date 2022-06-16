@@ -33,7 +33,7 @@ function setup() {
     stars.push( {x,y,z,rb,twinkle_offset} )
   }
   
-  starSpeed = 0.001;
+  starSpeed = -0.01;
   
   nebulas = shuffle(nebulas)
   for(var i = 0; i < nebulas.length; i ++){
